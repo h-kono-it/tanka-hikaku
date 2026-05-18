@@ -3,6 +3,8 @@
 商品の単価をリアルタイムに比較するシングルページアプリ。  
 Svelte 5 + Vite 製。GitHub Pages で動作する。
 
+https://h-kono-it.github.io/tanka-hikaku/
+
 - 価格・内容量を入力するだけで単価を自動計算
 - 最安値を即座にハイライト
 - 値引き（%）の入力に対応
