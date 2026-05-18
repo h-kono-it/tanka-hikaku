@@ -3,11 +3,10 @@
   const DEFAULT_NAMES = ['商品A', '商品B', '商品C', '商品D', '商品E', '商品F', '商品G', '商品H'];
 
   let globalUnit = $state('g');
-  let nextId = $state(4);
+  let nextId = $state(3);
   let products = $state([
     { id: 1, name: '', price: '', amount: '', discount: '', showDiscount: false },
     { id: 2, name: '', price: '', amount: '', discount: '', showDiscount: false },
-    { id: 3, name: '', price: '', amount: '', discount: '', showDiscount: false },
   ]);
 
   function placeholder(index) {
